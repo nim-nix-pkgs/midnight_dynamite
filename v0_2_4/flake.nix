@@ -1,5 +1,5 @@
 {
-  description = ''Wrapper for the markdown rendering hoedown library'';
+  description = ''Wrapper for the markdown rendering hoedown library.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
