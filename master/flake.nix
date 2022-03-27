@@ -11,6 +11,7 @@
   inputs.src-midnight_dynamite-master.ref   = "refs/heads/master";
   inputs.src-midnight_dynamite-master.owner = "Araq";
   inputs.src-midnight_dynamite-master.repo  = "midnight_dynamite";
+  inputs.src-midnight_dynamite-master.dir   = "";
   inputs.src-midnight_dynamite-master.type  = "github";
   
   inputs."nake".owner = "nim-nix-pkgs";
