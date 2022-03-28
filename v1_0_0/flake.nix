@@ -11,7 +11,6 @@
   inputs.src-midnight_dynamite-v1_0_0.ref   = "refs/tags/v1.0.0";
   inputs.src-midnight_dynamite-v1_0_0.owner = "Araq";
   inputs.src-midnight_dynamite-v1_0_0.repo  = "midnight_dynamite";
-  inputs.src-midnight_dynamite-v1_0_0.dir   = "";
   inputs.src-midnight_dynamite-v1_0_0.type  = "github";
   
   inputs."nake".owner = "nim-nix-pkgs";
@@ -29,6 +28,14 @@
   inputs."argument_parser".type  = "github";
   inputs."argument_parser".inputs.nixpkgs.follows = "nixpkgs";
   inputs."argument_parser".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/gradha/badger_bits".owner = "nim-nix-pkgs";
+  inputs."github.com/gradha/badger_bits".ref   = "master";
+  inputs."github.com/gradha/badger_bits".repo  = "github.com/gradha/badger_bits";
+  inputs."github.com/gradha/badger_bits".dir   = "";
+  inputs."github.com/gradha/badger_bits".type  = "github";
+  inputs."github.com/gradha/badger_bits".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/gradha/badger_bits".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
